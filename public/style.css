@@ -1,4 +1,4 @@
-body {
+/* body {
   font-family: 'Raleway';
   background-color: #f4f9ff;
 }
@@ -14,13 +14,17 @@ nav div {
 nav {
   display: grid;
   grid-template-columns: 55% auto;
-}
-nav .left img{
+} */
+
+nav img {
   width: 50px;
 }
-nav .right img{
+
+nav img {
   width: 60px;
 }
+
+/*
 nav .right {
   display: grid;
   grid-template-columns: auto auto auto auto;
@@ -32,24 +36,8 @@ a {
   font-size: 15px;
   margin: auto;
 }
-.banner {
-  position: relative;
-}
 .banner img {
   width: 100%;
-}
-.textbanner {
-  position: absolute;
-  max-width: 100%;
-  top: 0px;
-  left: 196px;
-  color: #daf6ff;
-  font-size: small;
-}
-.textbanner p {
-  position: absolute;
-  top: 40px;
-  left: 35px;
 }
 .textconten {
   
@@ -60,7 +48,6 @@ footer {
 }
 footer div {
   width: 90%;
-  /* padding: 15px; */
 }
 
 .row {
@@ -78,4 +65,50 @@ footer div {
 
 .row div {
   padding-right: 15px;
+} */
+
+
+/* For mobile phones: */
+
+
+.textbanner {
+  top: 0px;
+  left: 5%;
+  color: #daf6ff;
+}
+.textbanner h1{
+  font-size: 1.5em;
+}
+
+.textbanner p {
+  top: 30px;
+  left: 0px;
+  font-size: 0.8em;
+}
+
+@media only screen and (min-width: 768px) {
+
+  /* For tablets: */
+  .textbanner {
+    top: 0px;
+    left: 16%;
+  }
+  .textbanner h1{
+    font-size: 2.0em;
+  }
+
+  .textbanner p {
+    top: 40px;
+    left: 25px;
+    font-size: 1em;
+  }
+}
+
+@media only screen and (min-width: 987px) {
+
+  /* For desktop: */
+
+  .textbanner {
+    left: 25%;
+  }
 }
