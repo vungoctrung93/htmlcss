@@ -13,7 +13,7 @@ nav div {
 }
 nav {
   display: grid;
-  grid-template-columns: 55% auto;
+  grid-template-columns: 45% auto;
 }
 nav .left img{
   width: 50px;
@@ -25,12 +25,12 @@ nav .right {
   display: grid;
   grid-template-columns: auto auto auto auto;
 }
-a {
+nav a {
   max-width: 100%;
   text-decoration: none;
   color: #000;
   font-size: 15px;
-  margin: auto;
+  margin: auto 10px;
 }
 .banner {
   position: relative;
@@ -38,21 +38,19 @@ a {
 .banner img {
   width: 100%;
 }
-.textbanner {
+.textbanner .clb{
   position: absolute;
-  max-width: 100%;
-  top: 0px;
-  left: 196px;
-  color: #daf6ff;
-  font-size: small;
+  top: 135px;
+  left: 350px;
+  font-size:medium;
 }
-.textbanner p {
+.textbanner .vovinam {
   position: absolute;
-  top: 40px;
-  left: 35px;
-}
-.textconten {
-  
+  top: 120px;
+  left: 290px;
+  font-size:xxx-large;
+  font-weight: bold;
+  color: red;
 }
 footer {
   display: grid;
